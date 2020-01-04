@@ -18,6 +18,7 @@ const totalPages = 10;
 const size = 3;
 
 const pages = paginate(currentPage, totalPages, size);
+
 // Result:
 // [
 //   {page: 0, type: 'FIRST', isCurrentPage: false},
